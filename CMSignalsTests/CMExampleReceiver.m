@@ -9,7 +9,6 @@
 #import "CMExampleReceiver.h"
 #import "CMExample.h"
 
-
 @implementation CMExampleReceiver
 
 - (id)initWithExample:(CMExample *)example
@@ -17,9 +16,10 @@
     self = [super init];
     
     if (self) {
-        [self CM_connect:@selector(signalMethod:andNumber:)
+        [self connect:@selector(signalMethod:andNumber:)
                     from:example
                     with:@selector(slotMethod:andNumber:)];
+        _example = example;
     }
     
     return self;
@@ -30,6 +30,13 @@
 - (void)slotMethod:(NSString *)string andNumber:(NSNumber *)number
 {
     NSLog(@"%@ - %@", [number description], string);
+}
+
+- (void)disconnectSignals
+{
+    [self disconnect:@selector(signalMethod:andNumber:)
+                from:_example
+                with:@selector(slotMethod:andNumber:)];
 }
 
 @end

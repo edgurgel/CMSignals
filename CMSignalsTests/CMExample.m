@@ -15,11 +15,11 @@
 - (id)init
 {
     self = [super init];
-    
+
     if (self) {
-        [self CM_connect:@selector(signalMethod:andNumber:) from:self with:@selector(slotMethod:andNumber:)];
+        [self connect:@selector(signalMethod:andNumber:) from:self with:@selector(slotMethod:andNumber:)];
     }
-    
+
     return self;
 }
 
@@ -32,7 +32,7 @@
 
 - (void)testSignal
 {
-    [self CM_emit:@selector(signalMethod:andNumber:) withArguments:@[ @"Codeminer", [NSNumber numberWithInt:42]]];
+    [self emit:@selector(signalMethod:andNumber:) withArguments:@[ @"Codeminer", [NSNumber numberWithInt:42]]];
 }
 
 @end

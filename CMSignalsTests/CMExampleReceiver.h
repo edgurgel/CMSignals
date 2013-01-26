@@ -12,9 +12,9 @@
 @class CMExample;
 
 @interface CMExampleReceiver : NSObject
-
+@property (nonatomic, strong) CMExample *example;
 - (id)initWithExample:(CMExample *)example;
-
+- (void)disconnectSignals;
 #pragma mark Slots
 
 - (void)slotMethod:(NSString *)string andNumber:(NSNumber *)number;

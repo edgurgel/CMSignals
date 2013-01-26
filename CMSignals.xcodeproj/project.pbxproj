@@ -18,6 +18,8 @@
 		0483005F16B460620006B50A /* NSObject+CMSignals.h in Headers */ = {isa = PBXBuildFile; fileRef = 0483005D16B460620006B50A /* NSObject+CMSignals.h */; };
 		0483006016B460620006B50A /* NSObject+CMSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483005E16B460620006B50A /* NSObject+CMSignals.m */; };
 		0483006316B47E240006B50A /* CMExampleReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483006216B47E240006B50A /* CMExampleReceiver.m */; };
+		0483006F16B497190006B50A /* CMConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0483006D16B497180006B50A /* CMConnection.h */; };
+		0483007016B497190006B50A /* CMConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483006E16B497190006B50A /* CMConnection.m */; };
 		C8DD50CA192E4E99A8E11A33 /* libPods-CMSignalsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF6BB0EAF84DEFAF4DE7E9 /* libPods-CMSignalsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		0483005E16B460620006B50A /* NSObject+CMSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CMSignals.m"; sourceTree = "<group>"; };
 		0483006116B47E240006B50A /* CMExampleReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMExampleReceiver.h; sourceTree = "<group>"; };
 		0483006216B47E240006B50A /* CMExampleReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMExampleReceiver.m; sourceTree = "<group>"; };
+		0483006D16B497180006B50A /* CMConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMConnection.h; sourceTree = "<group>"; };
+		0483006E16B497190006B50A /* CMConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMConnection.m; sourceTree = "<group>"; };
 		9BFF6BB0EAF84DEFAF4DE7E9 /* libPods-CMSignalsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMSignalsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8EAEB3B6BA4347B4C0E15A /* Pods-CMSignalsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMSignalsTests.xcconfig"; path = "Pods/Pods-CMSignalsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -127,6 +131,8 @@
 				0483002816B455610006B50A /* Supporting Files */,
 				0483005D16B460620006B50A /* NSObject+CMSignals.h */,
 				0483005E16B460620006B50A /* NSObject+CMSignals.m */,
+				0483006D16B497180006B50A /* CMConnection.h */,
+				0483006E16B497190006B50A /* CMConnection.m */,
 			);
 			path = CMSignals;
 			sourceTree = "<group>";
@@ -169,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0483005F16B460620006B50A /* NSObject+CMSignals.h in Headers */,
+				0483006F16B497190006B50A /* CMConnection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +294,7 @@
 			files = (
 				0483002C16B455610006B50A /* CMSignals.m in Sources */,
 				0483006016B460620006B50A /* NSObject+CMSignals.m in Sources */,
+				0483007016B497190006B50A /* CMConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
