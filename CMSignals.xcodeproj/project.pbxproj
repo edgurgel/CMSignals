@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0483002216B455610006B50A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483002116B455610006B50A /* Cocoa.framework */; };
+		0483002C16B455610006B50A /* CMSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483002B16B455610006B50A /* CMSignals.m */; };
+		0483003416B455620006B50A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483003316B455620006B50A /* SenTestingKit.framework */; };
+		0483003516B455620006B50A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483002116B455610006B50A /* Cocoa.framework */; };
+		0483003816B455620006B50A /* CMSignals.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483001E16B455610006B50A /* CMSignals.dylib */; };
+		0483003E16B455620006B50A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0483003C16B455620006B50A /* InfoPlist.strings */; };
+		0483004116B455620006B50A /* CMSignalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483004016B455620006B50A /* CMSignalsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0483003616B455620006B50A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0483001516B455610006B50A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0483001D16B455610006B50A;
+			remoteInfo = CMSignals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0483001E16B455610006B50A /* CMSignals.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CMSignals.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0483002116B455610006B50A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0483002416B455610006B50A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0483002516B455610006B50A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0483002616B455610006B50A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0483002916B455610006B50A /* CMSignals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMSignals-Prefix.pch"; sourceTree = "<group>"; };
+		0483002A16B455610006B50A /* CMSignals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSignals.h; sourceTree = "<group>"; };
+		0483002B16B455610006B50A /* CMSignals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSignals.m; sourceTree = "<group>"; };
+		0483003216B455620006B50A /* CMSignalsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMSignalsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0483003316B455620006B50A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0483003B16B455620006B50A /* CMSignalsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMSignalsTests-Info.plist"; sourceTree = "<group>"; };
+		0483003D16B455620006B50A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0483003F16B455620006B50A /* CMSignalsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSignalsTests.h; sourceTree = "<group>"; };
+		0483004016B455620006B50A /* CMSignalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSignalsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0483001B16B455610006B50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483002216B455610006B50A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0483002E16B455620006B50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483003416B455620006B50A /* SenTestingKit.framework in Frameworks */,
+				0483003516B455620006B50A /* Cocoa.framework in Frameworks */,
+				0483003816B455620006B50A /* CMSignals.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0483001316B455610006B50A = {
+			isa = PBXGroup;
+			children = (
+				0483002716B455610006B50A /* CMSignals */,
+				0483003916B455620006B50A /* CMSignalsTests */,
+				0483002016B455610006B50A /* Frameworks */,
+				0483001F16B455610006B50A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0483001F16B455610006B50A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0483001E16B455610006B50A /* CMSignals.dylib */,
+				0483003216B455620006B50A /* CMSignalsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0483002016B455610006B50A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0483002116B455610006B50A /* Cocoa.framework */,
+				0483003316B455620006B50A /* SenTestingKit.framework */,
+				0483002316B455610006B50A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0483002316B455610006B50A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0483002416B455610006B50A /* AppKit.framework */,
+				0483002516B455610006B50A /* CoreData.framework */,
+				0483002616B455610006B50A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0483002716B455610006B50A /* CMSignals */ = {
+			isa = PBXGroup;
+			children = (
+				0483002A16B455610006B50A /* CMSignals.h */,
+				0483002B16B455610006B50A /* CMSignals.m */,
+				0483002816B455610006B50A /* Supporting Files */,
+			);
+			path = CMSignals;
+			sourceTree = "<group>";
+		};
+		0483002816B455610006B50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0483002916B455610006B50A /* CMSignals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0483003916B455620006B50A /* CMSignalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0483003F16B455620006B50A /* CMSignalsTests.h */,
+				0483004016B455620006B50A /* CMSignalsTests.m */,
+				0483003A16B455620006B50A /* Supporting Files */,
+			);
+			path = CMSignalsTests;
+			sourceTree = "<group>";
+		};
+		0483003A16B455620006B50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0483003B16B455620006B50A /* CMSignalsTests-Info.plist */,
+				0483003C16B455620006B50A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0483001C16B455610006B50A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0483001D16B455610006B50A /* CMSignals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0483004416B455620006B50A /* Build configuration list for PBXNativeTarget "CMSignals" */;
+			buildPhases = (
+				0483001A16B455610006B50A /* Sources */,
+				0483001B16B455610006B50A /* Frameworks */,
+				0483001C16B455610006B50A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMSignals;
+			productName = CMSignals;
+			productReference = 0483001E16B455610006B50A /* CMSignals.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		0483003116B455620006B50A /* CMSignalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0483004716B455620006B50A /* Build configuration list for PBXNativeTarget "CMSignalsTests" */;
+			buildPhases = (
+				0483002D16B455620006B50A /* Sources */,
+				0483002E16B455620006B50A /* Frameworks */,
+				0483002F16B455620006B50A /* Resources */,
+				0483003016B455620006B50A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0483003716B455620006B50A /* PBXTargetDependency */,
+			);
+			name = CMSignalsTests;
+			productName = CMSignalsTests;
+			productReference = 0483003216B455620006B50A /* CMSignalsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0483001516B455610006B50A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Codeminer42;
+			};
+			buildConfigurationList = 0483001816B455610006B50A /* Build configuration list for PBXProject "CMSignals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0483001316B455610006B50A;
+			productRefGroup = 0483001F16B455610006B50A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0483001D16B455610006B50A /* CMSignals */,
+				0483003116B455620006B50A /* CMSignalsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0483002F16B455620006B50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483003E16B455620006B50A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0483003016B455620006B50A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0483001A16B455610006B50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483002C16B455610006B50A /* CMSignals.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0483002D16B455620006B50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483004116B455620006B50A /* CMSignalsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0483003716B455620006B50A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0483001D16B455610006B50A /* CMSignals */;
+			targetProxy = 0483003616B455620006B50A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0483003C16B455620006B50A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0483003D16B455620006B50A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0483004216B455620006B50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0483004316B455620006B50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0483004516B455620006B50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMSignals/CMSignals-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0483004616B455620006B50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMSignals/CMSignals-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0483004816B455620006B50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMSignals/CMSignals-Prefix.pch";
+				INFOPLIST_FILE = "CMSignalsTests/CMSignalsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0483004916B455620006B50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMSignals/CMSignals-Prefix.pch";
+				INFOPLIST_FILE = "CMSignalsTests/CMSignalsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0483001816B455610006B50A /* Build configuration list for PBXProject "CMSignals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0483004216B455620006B50A /* Debug */,
+				0483004316B455620006B50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0483004416B455620006B50A /* Build configuration list for PBXNativeTarget "CMSignals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0483004516B455620006B50A /* Debug */,
+				0483004616B455620006B50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0483004716B455620006B50A /* Build configuration list for PBXNativeTarget "CMSignalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0483004816B455620006B50A /* Debug */,
+				0483004916B455620006B50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0483001516B455610006B50A /* Project object */;
+}
