@@ -89,3 +89,8 @@ Why not NSNotificationCenter?
 
 
 CMSignals actually use NSNotificationCenter under the hood. CMSignals remove the boilerplate.
+
+TODO
+----
+
+* `[ ]` Send broadcast signals using a class instead of an object
