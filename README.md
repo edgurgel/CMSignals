@@ -93,4 +93,5 @@ CMSignals actually use NSNotificationCenter under the hood. CMSignals remove the
 TODO
 ----
 
-* `[ ]` Send broadcast signals using a class instead of an object
+* `[ ]` Send broadcast signals using a class instead of an object;
+* '[ ]' Make it a CocoaPod.
