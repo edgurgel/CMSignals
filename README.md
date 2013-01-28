@@ -94,4 +94,4 @@ TODO
 ----
 
 * `[ ]` Send broadcast signals using a class instead of an object;
-* `[ ]` Make it a CocoaPod.
+* `[✓]` <del>Make it a CocoaPod.</del>
