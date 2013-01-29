@@ -95,3 +95,10 @@ TODO
 
 * `[ ]` Send broadcast signals using a class instead of an object;
 * `[✓]` <del>Make it a CocoaPod.</del>
+
+Credits
+-------
+
+CMSignals was created by [Eduardo Gurgel](http://github.com/edgurgel) and [Tiago Bastos](http://github.com/bastos).
+
+Many thanks to [Codeminer 42](http://codeminer42.com).
